@@ -61,7 +61,7 @@ I did all the cleaning in SQL (MySQL). I worked on staging copies of both tables
 | Currency | Standardised "inr" to "INR" |
 | Cleaned table | Saved the result as `finance_transaction_cleaned` |
 
-![SQL data cleaning for the transactions table](Images/sql_cleaning_Finance.png)
+![SQL data cleaning for the transactions table](sql_cleaning_Finance.png)
 
 ### Customers table
 
@@ -73,7 +73,7 @@ I did all the cleaning in SQL (MySQL). I worked on staging copies of both tables
 | Dates | Tested converting `date_of_birth` and `join_date` from dd-mm-yyyy text to dates with `STR_TO_DATE` |
 | Cleaned table | Saved the result as `customer_cleaned` |
 
-![SQL data cleaning for the customers table](Images/sql_cleaning_customers.png)
+![SQL data cleaning for the customers table](sql_cleaning_customers.png)
 
 ---
 
@@ -115,15 +115,15 @@ I built a three-page Power BI dashboard with year, channel, transaction type and
 
 **Financial Transaction Performance:** total transactions, total amount, success rate, fees and taxes, the monthly amount trend, amount by status, success rate by channel and a transaction type table.
 
-![Financial Transaction Performance dashboard page](Images/dashboard_financial.png)
+![Financial Transaction Performance dashboard page](dashboard_financial.png)
 
 **Fraud and Risk Analysis:** fraudulent transactions, fraud rate, average risk score, fraud value, the fraud trend, fraud by state and channel, the risk category distribution and the fraud rate by risk category.
 
-![Fraud and Risk Analysis dashboard page](Images/dashboard_fraud.png)
+![Fraud and Risk Analysis dashboard page](dashboard_fraud.png)
 
 **Customer Insights:** total customers, average income, average tenure, top segment, the join date trend, income distribution, and customers by occupation, segment and state.
 
-![Customer Insights dashboard page](Images/dashboard_customers.png)
+![Customer Insights dashboard page](dashboard_customers.png)
 
 ---
 
