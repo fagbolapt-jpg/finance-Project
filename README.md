@@ -173,7 +173,7 @@ Transactions succeed at a steady 85.74% across channels and types, so the improv
 
 ## Repository contents
 
-Adjust these to match your folders.
+
 
 ```
 project-name/
